@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'McLaren', cursive;
+    background-color: #F0F0F0;
+}
+
+/* HEADER STYLE  */
+.header{
+    background-color: #FBBC04;
+    color: #fff;
+    padding: 24px;
+    box-shadow: 0 1px 5px #adaaaa;
+}
+/* NOTE INPUT SECTION  */
+.input-container{
+    min-width: 400px;
+    width: 40%;
+    margin: 4px auto;
+    padding: 8px 32px 0 ;
+    position: relative;
+}
+.input-container input{
+    display: block;
+    width: 85%;
+    min-height: 40px;
+    margin: 16px auto;
+    border: none;
+    border-radius: 4px;
+    box-shadow: 0 0 5px #adaaaa;
+    font-size: 1.8rem;
+    padding-left: 8px;
+
+}
+.input-container input:focus,.input-container textarea.content-input:focus {
+    border: none;
+    outline: none;
+}
+.input-container textarea.content-input{
+    display: block;
+    width: 85%;
+    min-height: 40px;
+    margin:1px auto;
+    border: none;
+    border-radius: 4px;
+    box-shadow: 0 0 5px #adaaaa;
+    padding: 8px 4px 4px 8px;
+    font-size: 1.5rem;
+    
+    height: 100px;
+}
+.input-container button{
+    position: absolute;
+    right: 150px;
+    bottom: -20px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: none;
+    font-size: 2rem;
+    color: #F0F0F0;
+    background-color: #FBBC04;
+     cursor: pointer;
+     box-shadow: 0 0 5px #adaaaa;
+}
+
+/* NOTE CONTENT STYLE  */
+.single-note{
+    width: 240px;
+    display: inline-block;
+    background-color: #fff;
+    max-width: 344px;
+    margin: 24px;
+    padding: 8px 12px 8px 8px;
+    border-radius: 4px;
+    box-shadow: 0 1px 4px #adaaaa;
+    position: relative;
+}
+.single-note h3{
+    margin-bottom: 8px;
+}
+.single-note p{
+    overflow-wrap: break-word;
+
+}
+.delete-btn{
+    color: #FBBC04;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    font-weight: 600;
+    position: relative;
+    left: 70%;
+    cursor: pointer;
+    padding: 4px;
+    border-radius: 4px;
+}
+.delete-btn:hover{
+    color: rgb(226, 12, 12);
+    
+    
+}
+
+/* FOOTER STYLE  */
+footer{
+    text-align: center;
+    /* position: relative; */
+    /* bottom: 8px; */
+    margin:1px auto;
+    color:#adaaaa ;
+}
