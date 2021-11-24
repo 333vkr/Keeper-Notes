@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 
 const Weather = () => {
-  const apiKey = "b499aa55753137b8e692c8c9b83e8ba9";
+  const apiKey = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx";
   const apiURL =
     "https://api.openweathermap.org/data/2.5/weather?zip=679328,in&units=metric&appid=" +
     apiKey;
