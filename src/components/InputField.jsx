@@ -20,7 +20,7 @@ const InputField = (props) => {
 
     const { title, content } = textObj;
 
-    fetch("/", {
+    fetch("/notes", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
@@ -34,6 +34,8 @@ const InputField = (props) => {
         return res.json();
       })
       .then((data) => console.log(data.msg));
+
+      
     setFormSubmission(!formSubmission)
     props.addNoteFn(formSubmission);
     setTextObj({

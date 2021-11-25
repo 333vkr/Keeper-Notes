@@ -70,6 +70,7 @@ body{
 .waiting-msg{
     width: fit-content;
     margin:5% auto;
+    color: #66645f;
 }
 
 /* NOTE CONTENT STYLE  */
